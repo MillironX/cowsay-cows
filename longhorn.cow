@@ -1,0 +1,11 @@
+$the_cow = <<"EOC";
+   $thoughts
+    $thoughts   \\          /
+     $thoughts   \\________/
+      $thoughts     |$eyes|\\_________
+            (__)\\        )\\
+             $tongue ||----,- | *
+                ||      ||
+
+        Texas Longhorn Steer
+EOC

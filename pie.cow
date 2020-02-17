@@ -1,0 +1,8 @@
+$the_cow = <<"EOC";
+        $thoughts 
+         $thoughts  (__)
+      ______($eyes)_____
+     ( _)_______(__) )
+       \\ __________/
+         Cow Pie
+EOC

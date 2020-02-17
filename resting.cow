@@ -1,0 +1,9 @@
+$the_cow = <<"EOC";
+            $thoughts  ^__^
+             $thoughts ($eyes)
+       /-------(__)
+      / \\ |      \\__
+     *  /__-------__|
+           ~     ~
+       Cow resting
+EOC

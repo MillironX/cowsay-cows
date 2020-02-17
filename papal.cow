@@ -1,0 +1,14 @@
+$eye = chop($eyes);
+$the_cow = <<"EOC";
+    $thoughts        _
+     $thoughts      / \\
+      $thoughts    | + |
+       $thoughts   |___|
+        $thoughts  |$eye $eye|\\_________
+           (___)\\     ^  )\\
+             $tongue |        | |
+                ||----,- | *
+                ||      ||
+
+                Papal Bull
+EOC
