@@ -8,7 +8,7 @@
   echo ""
   echo "## Examples"
   echo ""
-} > README
+} > README.md
 
 cowsay_message() {
   COW="$1"
@@ -21,7 +21,7 @@ cowsay_message() {
     cowsay -f "$COW" "$MESSAGE"
     echo "\`\`\`"
     echo ""
-  } >> README
+  } >> README.md
 }
 
 cowthink_message() {
@@ -35,7 +35,7 @@ cowthink_message() {
     cowthink -f "$COW" "$MESSAGE"
     echo "\`\`\`"
     echo ""
-  } >> README
+  } >> README.md
 }
 
 cowsay_message bell "The hills are alive with the sound of moo-sic"
