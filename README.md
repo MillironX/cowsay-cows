@@ -1,13 +1,19 @@
 # cowsay-cows
 
-cowfiles in the original spirit of cowsay, except that all of these are
-  actually bovine
+cowfiles in the original spirit of cowsay, except that all of these are actually bovine
+
+Install using [Antigen](https://github.com/zsh-users/antigen)
+
+```bash
+antigen bundle millironx/cowsaycows
+```
 
 ## Examples
 
 ### bell
 
-```plaintext
+```shellsession
+$ cowsay -f bell
  _______________________________________
 / The hills are alive with the sound of \
 \ moo-sic                               /
@@ -27,7 +33,8 @@ cowfiles in the original spirit of cowsay, except that all of these are
 
 ### birdstale
 
-```plaintext
+```shellsession
+$ cowsay -f birdstale
  _______________________________________
 / Grandpa said there was a moral there, \
 | but you had to figure it out for      |
@@ -42,7 +49,8 @@ cowfiles in the original spirit of cowsay, except that all of these are
 
 ### bull
 
-```plaintext
+```shellsession
+$ cowsay -f bull
  ______________________
 < Actually, I'm a bull >
  ----------------------
@@ -53,9 +61,12 @@ cowfiles in the original spirit of cowsay, except that all of these are
                 ||     ||
 ```
 
+**BONUS**: aliased to `bullsay`
+
 ### compucow
 
-```plaintext
+```shellsession
+$ cowsay -f compucow
  _______________________________________
 / The programmers number one excuse for \
 \ slacking off: cow-pie-ling            /
@@ -76,7 +87,8 @@ cowfiles in the original spirit of cowsay, except that all of these are
 
 ### cownterfeit
 
-```plaintext
+```shellsession
+$ cowsay -f cownterfeit
  ________________________________________
 / The love of moo-lah is the root of all \
 \ evil                                   /
@@ -100,7 +112,8 @@ cowfiles in the original spirit of cowsay, except that all of these are
 
 ### cowpooling
 
-```plaintext
+```shellsession
+$ cowsay -f cowpooling
  _______________________________________
 / Maybe Al Gore will forgive us for all \
 \ those methane emissions this way      /
@@ -119,7 +132,8 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 
 ### cowstruction
 
-```plaintext
+```shellsession
+$ cowsay -f cowstruction
  _________________________________
 < My favorite part is bull-dozing >
  ---------------------------------
@@ -147,10 +161,11 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 
 ### longhorn
 
-```plaintext
+```shellsession
+$ cowsay -f longhorn
  _______________________________________
 / I've been sent to spread the message: \
-\ God bless Texas!                      /
+\ God blessed Texas!                    /
  ---------------------------------------
    \
     \   \          /
@@ -163,9 +178,12 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
         Texas Longhorn Steer
 ```
 
+**BONUS**: aliased to `steersay`
+
 ### papal
 
-```plaintext
+```shellsession
+$ cowsay -f papal
  ________________________
 < I forgive you, my calf >
  ------------------------
@@ -184,7 +202,8 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 
 ### pie
 
-```plaintext
+```shellsession
+$ cowsay -f pie
  ___________________________________
 < Nobody makes them like Aunt Aggie >
  -----------------------------------
@@ -198,7 +217,8 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 
 ### resting
 
-```plaintext
+```shellsession
+$ cowthink -f resting
  ______________________________________
 ( Insert deep thoughts and ruminations )
 ( here                                 )
@@ -214,7 +234,8 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 
 ### super
 
-```plaintext
+```shellsession
+$ cowsay -f super
  ________________________________________
 / If Impossible is as good as beef, then \
 \ Bizarro is as good as me               /
