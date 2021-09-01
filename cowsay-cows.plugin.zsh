@@ -1,5 +1,5 @@
 # Only add stuff if cowsay is installed
-if [[ $(command -v cowsay) ]]; then
+if [ $(command -v cowsay) ]; then
   # Add the originally present cows to COWPATH
   for COW in $(find $(whereis cowsay | awk '{print $3}') -name "*.cow" | xargs dirname | uniq); do
     export COWPATH=$COW:$COWPATH
